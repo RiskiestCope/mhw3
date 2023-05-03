@@ -1,0 +1,144 @@
+body {
+  background-color: #ffffff;
+  color: #2dc918;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  height: 100vh;
+  overflow: scroll;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+header{
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  height: 500px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("foto/Spotify-logo.png");
+  position: relative;
+  }
+  
+@media (max-width: 500px) {
+  header {
+      height: 300px;    
+      line-height: 1.2;
+  }
+}
+
+header h1{
+  font-weight: bolder;
+  font-family: 'Edu NSW ACT Foundation',cursive;
+  font-size: 68px;
+  max-width: 900px;
+  color: rgb(39, 58, 3);
+}
+
+@media (max-width: 500px){
+  header h1{
+    font-size: 2em;
+    letter-spacing: 4px;
+  }
+}
+
+
+
+a{
+  font-size: 30px;
+  cursor: pointer;
+  padding: 15px 15px;
+  border: 2px solid #2dc918;
+  border-radius: 100px;
+  color: #2dc918;
+  background-color: #2dc918;
+  text-decoration: none;
+}
+
+
+footer{
+  display: flex;
+  background-color: #2dc918;
+  padding: 15px;
+  text-align: center;
+  justify-content: center;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  flex-direction: column;
+}
+
+footer p{
+  font-size: 18px;
+  color: #ffffff;
+}
+
+section {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 500px) {
+  section {
+    margin: 40px 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  section p {
+    width: 90%;
+    margin-bottom: 2em;
+  }
+}
+
+
+ol{
+  font-weight: bold;
+  font-size: 20;
+  margin-top: 60px;
+  max-width: 66.67%;
+}
+
+
+ol h1{
+  font-weight: bolder;
+  padding-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #f0ff23;
+}
+
+ol p{
+  padding-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #f0ff23;
+}
+
+#dinamico{
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  margin: 10px;
+}
+
+#classifica{
+  margin-top: 5px;
+  font-size: 25px;
+  border:1px solid #2dc918;
+  background-color: #2dc918;
+  border-radius: 12px;
+  
+}
+#classifica:hover{
+  border:1px solid  #18a6c9;
+  background-color: inherit;
+  color: #18a6c9;
+}
